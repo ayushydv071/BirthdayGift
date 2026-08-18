@@ -1,0 +1,18 @@
+{
+  "name": "birthday-surprise-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A private, interactive romantic birthday website & scrapbook.",
+  "scripts": {
+    "dev": "npx serve .",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "birthday",
+    "surprise",
+    "interactive-letter",
+    "scrapbook"
+  ],
+  "author": "",
+  "license": "ISC"
+}
