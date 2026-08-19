@@ -51,7 +51,7 @@ The password is kept in a single, clearly marked configuration variable inside `
    // =========================================================================
    // 🔐 CONFIGURATION: CHANGE YOUR SECRET PASSWORD HERE
    // =========================================================================
-   const SITE_PASSWORD = "BIRTHDAY123"; // <-- Change this to your chosen password!
+   const SITE_PASSWORD = "************"; // <-- Change this to your chosen password!
    // =========================================================================
    ```
 3. Replace `"BIRTHDAY123"` with your secret password (e.g. `"MYLOVE2026"`).
