@@ -273,38 +273,34 @@
           <!-- In-Card Story Navigation -->
           <div class="card-footer-nav">
             <button type="button" class="btn-card-prev" onclick="window.deckPrev()">← Cover</button>
-            <button type="button" class="btn-card-next" onclick="window.deckNext()">Next Memory →</button>
+            <button type="button" class="btn-card-next" onclick="window.deckNext()">Next Thought →</button>
           </div>
         </div>
       </section>
 
-      <!-- SLIDE 2: NOSTALGIA POLAROID & RUNAWAY GAME -->
-      <section class="slide" data-theme="rose" data-slide="2">
-        <div class="letter-card" style="background: transparent; border: none; box-shadow: none; padding: 0;">
+      <!-- SLIDE 2: VULNERABLE & PINKY PROMISE STAMP (Neutral & Light Theme) -->
+      <section class="slide" data-theme="neutral" data-slide="2">
+        <div class="letter-card">
 
-          <div class="polaroid-frame" id="polaroid-card">
-            <div class="washi-tape"></div>
-
-            <div class="polaroid-photo">
-              <img src="assets/memory-pic.jpeg" alt="Cute memory" class="polaroid-img" />
-            </div>
-
-            <p class="polaroid-caption">
-              "You remember tution ke bahar woh random eye contacts, ek dusre ko dekh ke phir casually ignore kar dena…
-              those little moments were actually really sweet. 🤍"
+          <div class="flicker-list" id="flicker-box" style="width: 100%; text-align: center;">
+            <p class="letter-text flicker-line" style="color: var(--current-text-primary); margin-bottom: 12px;">
+              "Kabhi-kabhi aapka achanak distant ho jaana samajh nahi aata."
+            </p>
+            <p class="letter-text flicker-line" style="color: var(--current-text-primary); margin-bottom: 12px;">
+              "Main isse koi big issue nahi banana chahti, but it gets confusing."
+            </p>
+            <p class="letter-text flicker-line"
+              style="color: var(--current-text-primary); font-weight: 500; margin-bottom: 12px;">
+              "Bas aapki taraf se thodi si clarity aur reassurance chahiye hoti hai."
             </p>
           </div>
 
-          <!-- Playful Runaway Button Game -->
-          <div class="runaway-game-box" id="runaway-arena">
-            <div class="runaway-title">Do you remember those moments too?</div>
-            <div class="runaway-btn-group">
-              <button class="btn-playful" id="runaway-yes-btn">Yes, definitely!</button>
-              <button class="btn-playful" id="runaway-no-btn"
-                style="background: rgba(223, 140, 162, 0.35); color: #3c1225;">Not at all</button>
+          <!-- Pinky Promise Stamp Interaction -->
+          <div class="promise-stamp-box">
+            <div class="stamp-badge" id="promise-btn">
+              <span>Click to make a Pinky Promise</span>
             </div>
-            <div id="runaway-status" class="runaway-status-styled"></div>
-            <img src="assets/cat-cool.jpeg" alt="Cool Cat" class="cute-sticker cool-cat-badge" />
+            <div id="promise-result" class="promise-result-styled"></div>
           </div>
 
           <!-- In-Card Story Navigation -->
@@ -312,7 +308,6 @@
             <button type="button" class="btn-card-prev" onclick="window.deckPrev()">← Previous</button>
             <button type="button" class="btn-card-next" onclick="window.deckNext()">Read Letter →</button>
           </div>
-
         </div>
       </section>
 
@@ -320,8 +315,10 @@
       <section class="slide" data-theme="neutral" data-slide="3">
         <div class="letter-card">
 
-          <div class="ink-text-container" id="confession-ink-box" style="cursor: pointer; width: 100%; text-align: center;">
-            <p class="letter-text" style="font-size: clamp(17px, 3.8vw, 20px); line-height: 1.72; color: var(--current-text-primary); margin: auto;">
+          <div class="ink-text-container" id="confession-ink-box"
+            style="cursor: pointer; width: 100%; text-align: center;">
+            <p class="letter-text"
+              style="font-size: clamp(17px, 3.8vw, 20px); line-height: 1.72; color: var(--current-text-primary); margin: auto;">
               <span class="ink-sentence">Sometimes, the feelings we understand the latest are the ones that end up
                 meaning the most. </span>
               <span class="ink-sentence">I know I was the one who stepped back when you came closer, and sometimes I
@@ -363,10 +360,11 @@
               express na kar paun, but there is something genuine from my side."
             </p>
             <p class="letter-text chunk-para" style="color: var(--current-text-primary); margin-bottom: 12px;">
-              "Aur honestly, mujhe tumhari taraf se thodi si reassurance chahiye, taaki mujhe baar-baar ye sochna na
+              "Aur honestly, mujhe aapki taraf se thodi si reassurance chahiye, taaki mujhe baar-baar ye sochna na
               pade ki jo main feel kar rahi hoon, woh sirf meri taraf se hai."
             </p>
-            <p class="letter-text chunk-para" style="color: var(--current-text-primary); font-weight: 500; margin-bottom: 12px;">
+            <p class="letter-text chunk-para"
+              style="color: var(--current-text-primary); font-weight: 500; margin-bottom: 12px;">
               "Making someone special on their special day... is something that I love."
             </p>
           </div>
@@ -391,33 +389,38 @@
           <!-- In-Card Story Navigation -->
           <div class="card-footer-nav">
             <button type="button" class="btn-card-prev" onclick="window.deckPrev()">← Previous</button>
-            <button type="button" class="btn-card-next" onclick="window.deckNext()">A Little Thought →</button>
+            <button type="button" class="btn-card-next" onclick="window.deckNext()">A Memory →</button>
           </div>
         </div>
       </section>
 
-      <!-- SLIDE 5: VULNERABLE & PINKY PROMISE STAMP (Neutral & Light Theme) -->
-      <section class="slide" data-theme="neutral" data-slide="5">
-        <div class="letter-card">
+      <!-- SLIDE 5: NOSTALGIA POLAROID & RUNAWAY GAME -->
+      <section class="slide" data-theme="rose" data-slide="5">
+        <div class="letter-card" style="background: transparent; border: none; box-shadow: none; padding: 0;">
 
-          <div class="flicker-list" id="flicker-box" style="width: 100%; text-align: center;">
-            <p class="letter-text flicker-line" style="color: var(--current-text-primary); margin-bottom: 12px;">
-              "Kabhi-kabhi tumhara achanak distant ho jaana samajh nahi aata."
-            </p>
-            <p class="letter-text flicker-line" style="color: var(--current-text-primary); margin-bottom: 12px;">
-              "Main isse koi big issue nahi banana chahti, but it gets confusing."
-            </p>
-            <p class="letter-text flicker-line" style="color: var(--current-text-primary); font-weight: 500; margin-bottom: 12px;">
-              "Bas tumhari taraf se thodi si clarity aur reassurance chahiye hoti hai."
+          <div class="polaroid-frame" id="polaroid-card">
+            <div class="washi-tape"></div>
+
+            <div class="polaroid-photo">
+              <img src="assets/memory-pic.jpeg" alt="Cute memory" class="polaroid-img" />
+            </div>
+
+            <p class="polaroid-caption">
+              "You remember tution ke bahar woh random eye contacts, ek dusre ko dekh ke phir casually ignore kar dena…
+              those little moments were actually really sweet. 🤍"
             </p>
           </div>
 
-          <!-- Pinky Promise Stamp Interaction -->
-          <div class="promise-stamp-box">
-            <div class="stamp-badge" id="promise-btn">
-              <span>Click to make a Pinky Promise</span>
+          <!-- Playful Runaway Button Game -->
+          <div class="runaway-game-box" id="runaway-arena">
+            <div class="runaway-title">Do you remember those moments too?</div>
+            <div class="runaway-btn-group">
+              <button class="btn-playful" id="runaway-yes-btn">Yes, definitely!</button>
+              <button class="btn-playful" id="runaway-no-btn"
+                style="background: rgba(223, 140, 162, 0.35); color: #3c1225;">Not at all</button>
             </div>
-            <div id="promise-result" class="promise-result-styled"></div>
+            <div id="runaway-status" class="runaway-status-styled"></div>
+            <img src="assets/cat-cool.jpeg" alt="Cool Cat" class="cute-sticker cool-cat-badge" />
           </div>
 
           <!-- In-Card Story Navigation -->
@@ -425,6 +428,7 @@
             <button type="button" class="btn-card-prev" onclick="window.deckPrev()">← Previous</button>
             <button type="button" class="btn-card-next" onclick="window.deckNext()">Final Birthday Wish →</button>
           </div>
+
         </div>
       </section>
 
@@ -466,6 +470,11 @@
             <span id="heart-counter-badge"
               style="background: #df8ca2; color: #ffffff; padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 700;">0</span>
             <span>♥</span>
+          </div>
+
+          <!-- In-Card Story Navigation -->
+          <div class="card-footer-nav">
+            <button type="button" class="btn-card-prev" onclick="window.deckPrev()">← Previous</button>
           </div>
 
           <!-- Restart Deck Button -->

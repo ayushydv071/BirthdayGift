@@ -94,11 +94,12 @@ You can easily customize all text, messages, and memories inside [`index.html`](
 | **Cover Title & Subtext** | Slide 0 (`#start-btn` section around line 390) |
 | **Birthday Greeting & Wish** | Slide 1 (Heading & text around lines 410–425) |
 | **Balloon Compliments** | Slide 1 (`.interactive-balloon` `data-msg` attributes around line 430) |
-| **Polaroid Memory & Story** | Slide 2 (`.polaroid-caption` around line 470) |
-| **Main Confession Letter** | Slide 3 (`#confession-ink-box` around lines 500–515) |
-| **Secret Unfolded Note** | Modal section (`#secret-modal` around lines 595–610) |
-| **Reassurance & Promise** | Slide 4 & Slide 5 (`.chunk-para` & `#promise-result` around lines 530–565) |
-| **Closing Wish & Final Gift** | Slide 6 (`.main-title` & `#surprise-card` around lines 570–590) |
+| **Vulnerable & Pinky Promise** | Slide 2 (`#promise-result`) |
+| **Main Confession Letter** | Slide 3 (`#confession-ink-box`) |
+| **Reassurance & Virtual Hug** | Slide 4 (`.chunk-para` & `#hug-btn`) |
+| **Polaroid Memory (Tuition)** | Slide 5 (`.polaroid-caption`) |
+| **Closing Wish & Final Gift** | Slide 6 (`.main-title` & `#surprise-card`) |
+| **Secret Unfolded Note** | Modal section (`#secret-modal`) |
 
 ---
 

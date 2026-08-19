@@ -8,13 +8,13 @@ A single-page, slide-by-slide romantic birthday website built as a self-containe
 
 - **Mood**: Intimate, elegant, heartfelt letter/journal aesthetic with refined micro-interactions.
 - **Two-Tone Dynamic Theme**:
-  - **Light Blushing Champagne palette** (Slides 0, 1, 2, 6) for warm, joyful, and nostalgic chapters.
-  - **Deep Velvet Blackberry palette** (Slides 3, 4, 5) for emotional confession and vulnerable thoughts.
+  - **Light Blushing Champagne palette** (Slides 0, 1, 5, 6) for warm, joyful, and nostalgic chapters.
+  - **Deep Velvet Blackberry / Neutral Cashmere palette** (Slides 2, 3, 4) for emotional reassurance and vulnerable confession thoughts.
   - Smooth background gradient morphing as the user progresses through chapters.
 
 ### Interactive Navigation & Layout
 1. **In-Card Story Progression**: Clean, modern next/previous buttons embedded in the card footer (`[ ← Previous ]`, `[ Next Memory → ]`), avoiding any overlapping ribbons or obstructive UI.
-2. **Story Milestone Timeline Bar**: Bottom navigation dock with glowing active pills and chapter icons (`🕊️ Letter` | `🎂 Wish` | `📸 Memory` | `💌 Confession` | `🫂 Hug` | `✨ Promise` | `🎁 Gift`).
+2. **Story Milestone Timeline Bar**: Bottom navigation dock with glowing active pills and chapter icons (`🕊️ Letter` | `🎂 Wish` | `✨ Promise` | `💌 Confession` | `🫂 Hug` | `📸 Memory` | `🎁 Gift`).
 3. **Responsive Viewports**: All slides fit gracefully within `100dvh` across both mobile and desktop screens.
 
 ---
@@ -39,38 +39,38 @@ A single-page, slide-by-slide romantic birthday website built as a self-containe
 - **Heading**: **"Happy Birthday ❤️"**
 - **Message**: *"Happy birthday to you, special one. Wishing you good health, countless reasons to smile, and may all your heartfelt dreams come true!"*
 - **Interactive Mini-Games**:
-  - **3-Balloon Grid**: Responsive 3-column SVG balloon layout that pops with sound & confetti, revealing hidden compliments (*"Cutest smile in the world 🌸"*, *"Endless happiness & peace ✨"*, *"My absolute favorite person ❤️"*).
+  - **3-Balloon Grid**: Responsive 3-column SVG balloon layout that pops with sound & confetti, revealing hidden compliments (*"Cutest smile in the world 🌸"*, *"Endless happiness & peace ✨"*, *"fav ❤️"*).
   - **Interactive Birthday Cake**: Tapping the cake blows out the candle flame with confetti.
-- **In-Card Nav**: `[ Next Memory → ]`
+- **In-Card Nav**: `[ Next Thought → ]`
 
-### Slide 2 — Nostalgia Polaroid & Runaway Button Game (Light Theme)
-- **Visual**: Polaroid photo card with washi tape pin.
-- **Caption**: *"You remember Axis Bank ke bahar woh random eye contacts, ek dusre ko dekh ke phir casually ignore kar dena… those little moments were actually really sweet. 🤍"*
-- **Playful Mini-Game**: *"Do you remember those moments too?"*
-  - Button 1: `"Yes, definitely!"` (Clickable → triggers confetti + *"I knew it! You remember too ❤️✨"*).
-  - Button 2: `"Not at all"` (**The Runaway Button** — dodges the cursor/touch).
+### Slide 2 — Vulnerable & Pinky Promise Stamp (Neutral Theme)
+- **Animation**: Signal flicker reveal on intimate thoughts.
+- **Interaction**: `"Click to make a Pinky Promise"` → Stamps promise: *"Pinky Promise: Clearer talks, always ✨❤️"*.
 - **In-Card Nav**: `[ Read Letter → ]`
 
-### Slide 3 — Main Confession & Secret Letter Unfold (Dark Theme)
-- **Theme**: Deep velvet blackberry background.
+### Slide 3 — Main Confession & Secret Letter Unfold (Neutral Theme)
+- **Theme**: Warm cashmere neutral background.
 - **Animation**: Staggered ink unblur & fade-in reveal.
 - **Interactive Button**: `"I have one more message for you (Click to read)"`
   - Opens vintage modal letter with sign-off: `~ Yours ❤️`.
 - **In-Card Nav**: `[ Next Thought → ]`
 
-### Slide 4 — Reassurance & Virtual Hug Charger (Dark Theme)
+### Slide 4 — Reassurance & Virtual Hug Charger (Neutral Theme)
 - **Animation**: Sequential thought cards fading up smoothly.
 - **Interactive Game**: **"Virtual Hug Charger"**
   - Hold heart button for 3 seconds to charge the hug meter → delivers virtual hug.
-- **In-Card Nav**: `[ A Little Thought → ]`
+- **In-Card Nav**: `[ A Memory → ]`
 
-### Slide 5 — Vulnerable & Pinky Promise Stamp (Deep Dark Theme)
-- **Animation**: Signal flicker reveal on intimate thoughts.
-- **Interaction**: `"Click to make a Pinky Promise"` → Stamps promise: *"Pinky Promise: Clearer talks, always ✨❤️"*.
+### Slide 5 — Nostalgia Polaroid & Runaway Button Game (Tuition Slide - Light Theme)
+- **Visual**: Polaroid photo card with washi tape pin.
+- **Caption**: *"You remember tution ke bahar woh random eye contacts, ek dusre ko dekh ke phir casually ignore kar dena… those little moments were actually really sweet. 🤍"*
+- **Playful Mini-Game**: *"Do you remember those moments too?"*
+  - Button 1: `"Yes, definitely!"` (Clickable → triggers confetti + *"I knew it! You remember too ❤️✨"*).
+  - Button 2: `"Not at all"` (**The Runaway Button** — dodges the cursor/touch).
 - **In-Card Nav**: `[ Final Birthday Wish → ]`
 
-### Slide 6 — Closing Wish & Mystery Gift Box (Light Theme)
-- **Heading**: *"Happy Birthday, my favorite person ❤️"*
+### Slide 6 — Closing Wish & Mystery Gift Box (Light Rose Theme)
+- **Heading**: *"Happy Birthday, cutieeee❤️"*
 - **Interactive Mystery Gift Box**: `"Click for one last secret ✨"` → unwraps with sparkles.
 - **Interactive Reaction**: `"Send love to the universe"` counter button with floating hearts.
 - **Action**: `"Read from start"` button to restart deck.

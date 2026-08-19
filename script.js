@@ -109,10 +109,10 @@
   const chapters = [
     { icon: '🕊️', label: 'Letter' },
     { icon: '🎂', label: 'Wish' },
-    { icon: '📸', label: 'Memory' },
+    { icon: '✨', label: 'Promise' },
     { icon: '💌', label: 'Confession' },
     { icon: '🫂', label: 'Hug' },
-    { icon: '✨', label: 'Promise' },
+    { icon: '📸', label: 'Memory' },
     { icon: '🎁', label: 'Gift' }
   ];
 
@@ -250,9 +250,12 @@
       setTimeout(launchHeartConfetti, 300);
     }
 
-    if (index === 2 && cameraFlash) {
-      cameraFlash.classList.add('flash-active');
-      setTimeout(() => cameraFlash.classList.remove('flash-active'), 50);
+    if (index === 2) {
+      const flickerLines = document.querySelectorAll('#flicker-box .flicker-line');
+      flickerLines.forEach((line, idx) => {
+        line.classList.remove('flicker-anim');
+        setTimeout(() => line.classList.add('flicker-anim'), 180 + idx * 500);
+      });
     }
 
     if (index === 3) {
@@ -271,12 +274,9 @@
       });
     }
 
-    if (index === 5) {
-      const flickerLines = document.querySelectorAll('#flicker-box .flicker-line');
-      flickerLines.forEach((line, idx) => {
-        line.classList.remove('flicker-anim');
-        setTimeout(() => line.classList.add('flicker-anim'), 180 + idx * 500);
-      });
+    if (index === 5 && cameraFlash) {
+      cameraFlash.classList.add('flash-active');
+      setTimeout(() => cameraFlash.classList.remove('flash-active'), 50);
     }
   }
 
