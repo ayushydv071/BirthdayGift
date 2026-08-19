@@ -24,7 +24,7 @@ A single-page, slide-by-slide romantic birthday website built as a self-containe
 ### 🔐 Password Protection Screen (Entry Overlay)
 - `PRIVATE ACCESS`
 - `"This is only for you"`
-- Password input with show/hide toggle (Default password: `BIRTHDAY123`)
+- Password input with show/hide toggle (Default password: `AXIS BANK`)
 - `[ 🔓 Unlock Letter ]` button.
 
 ### Slide 0 — Cover (Light Theme) — *Flying White Dove Air Delivery* 🕊️

@@ -10,7 +10,7 @@
   // =========================================================================
   // 🔐 CONFIGURATION: CHANGE YOUR SECRET PASSWORD HERE
   // =========================================================================
-  const SITE_PASSWORD = "BIRTHDAY123"; // <-- Change this to your chosen password!
+  const SITE_PASSWORD = "AXIS BANK"; // <-- Change this to your chosen password!
   // =========================================================================
 
   const totalSlides = 7;
