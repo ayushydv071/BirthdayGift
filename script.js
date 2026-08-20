@@ -109,9 +109,9 @@
   const chapters = [
     { icon: '🕊️', label: 'Letter' },
     { icon: '🎂', label: 'Wish' },
-    { icon: '✨', label: 'Promise' },
-    { icon: '💌', label: 'Confession' },
     { icon: '🫂', label: 'Hug' },
+    { icon: '💌', label: 'Confession' },
+    { icon: '✨', label: 'Promise' },
     { icon: '📸', label: 'Memory' },
     { icon: '🎁', label: 'Gift' }
   ];
@@ -251,10 +251,10 @@
     }
 
     if (index === 2) {
-      const flickerLines = document.querySelectorAll('#flicker-box .flicker-line');
-      flickerLines.forEach((line, idx) => {
-        line.classList.remove('flicker-anim');
-        setTimeout(() => line.classList.add('flicker-anim'), 180 + idx * 500);
+      const chunks = document.querySelectorAll('#reassurance-chunk-box .chunk-para');
+      chunks.forEach((c, idx) => {
+        c.classList.remove('revealed');
+        setTimeout(() => c.classList.add('revealed'), 200 + idx * 650);
       });
     }
 
@@ -267,10 +267,10 @@
     }
 
     if (index === 4) {
-      const chunks = document.querySelectorAll('#reassurance-chunk-box .chunk-para');
-      chunks.forEach((c, idx) => {
-        c.classList.remove('revealed');
-        setTimeout(() => c.classList.add('revealed'), 200 + idx * 650);
+      const flickerLines = document.querySelectorAll('#flicker-box .flicker-line');
+      flickerLines.forEach((line, idx) => {
+        line.classList.remove('flicker-anim');
+        setTimeout(() => line.classList.add('flicker-anim'), 180 + idx * 500);
       });
     }
 

@@ -278,29 +278,40 @@
         </div>
       </section>
 
-      <!-- SLIDE 2: VULNERABLE & PINKY PROMISE STAMP (Neutral & Light Theme) -->
+      <!-- SLIDE 2: REASSURANCE & VIRTUAL HUG CHARGER (Neutral & Light Theme) -->
       <section class="slide" data-theme="neutral" data-slide="2">
         <div class="letter-card">
 
-          <div class="flicker-list" id="flicker-box" style="width: 100%; text-align: center;">
-            <p class="letter-text flicker-line" style="color: var(--current-text-primary); margin-bottom: 12px;">
-              "Kabhi-kabhi aapka achanak distant ho jaana samajh nahi aata."
+          <div class="chunk-container" id="reassurance-chunk-box" style="width: 100%; text-align: center;">
+            <p class="letter-text chunk-para" style="color: var(--current-text-primary); margin-bottom: 12px;">
+              "Bas itna samajh lo ki jo bhi hai, woh fake ya timepass nahi hai. Main shayad har baar apni feelings
+              express na kar paun, but there is something genuine from my side."
             </p>
-            <p class="letter-text flicker-line" style="color: var(--current-text-primary); margin-bottom: 12px;">
-              "Main isse koi big issue nahi banana chahti, but it gets confusing."
+            <p class="letter-text chunk-para" style="color: var(--current-text-primary); margin-bottom: 12px;">
+              "Aur honestly, mujhe aapki taraf se thodi si reassurance chahiye, taaki mujhe baar-baar ye sochna na
+              pade ki jo main feel kar rahi hoon, woh sirf meri taraf se hai."
             </p>
-            <p class="letter-text flicker-line"
+            <p class="letter-text chunk-para"
               style="color: var(--current-text-primary); font-weight: 500; margin-bottom: 12px;">
-              "Bas aapki taraf se thodi si clarity aur reassurance chahiye hoti hai."
+              "Making someone special on their special day... is something that I love."
             </p>
           </div>
 
-          <!-- Pinky Promise Stamp Interaction -->
-          <div class="promise-stamp-box">
-            <div class="stamp-badge" id="promise-btn">
-              <span>Click to make a Pinky Promise</span>
+          <!-- Virtual Hug Charger -->
+          <div class="hug-charger-container">
+            <div
+              style="font-family: var(--font-ui); font-size: 10.5px; color: var(--current-accent-start); font-weight: 700; letter-spacing: 0.12em;">
+              VIRTUAL HUG
             </div>
-            <div id="promise-result" class="promise-result-styled"></div>
+            <div
+              style="font-family: var(--font-body); font-size: 15.5px; color: var(--current-text-primary); font-style: italic; margin-top: 4px;"
+              id="hug-status-text">
+              Hold the heart for 3 seconds to send a warm hug
+            </div>
+            <button class="hug-hold-btn" id="hug-btn" aria-label="Hold to send hug">♥</button>
+            <div class="hug-progress-bar-bg">
+              <div class="hug-progress-bar-fill" id="hug-progress-fill"></div>
+            </div>
           </div>
 
           <!-- In-Card Story Navigation -->
@@ -350,40 +361,29 @@
         </div>
       </section>
 
-      <!-- SLIDE 4: REASSURANCE & VIRTUAL HUG CHARGER (Neutral & Light Theme) -->
+      <!-- SLIDE 4: VULNERABLE & PINKY PROMISE STAMP (Neutral & Light Theme) -->
       <section class="slide" data-theme="neutral" data-slide="4">
         <div class="letter-card">
 
-          <div class="chunk-container" id="reassurance-chunk-box" style="width: 100%; text-align: center;">
-            <p class="letter-text chunk-para" style="color: var(--current-text-primary); margin-bottom: 12px;">
-              "Bas itna samajh lo ki jo bhi hai, woh fake ya timepass nahi hai. Main shayad har baar apni feelings
-              express na kar paun, but there is something genuine from my side."
+          <div class="flicker-list" id="flicker-box" style="width: 100%; text-align: center;">
+            <p class="letter-text flicker-line" style="color: var(--current-text-primary); margin-bottom: 12px;">
+              "Kabhi-kabhi aapka achanak distant ho jaana samajh nahi aata."
             </p>
-            <p class="letter-text chunk-para" style="color: var(--current-text-primary); margin-bottom: 12px;">
-              "Aur honestly, mujhe aapki taraf se thodi si reassurance chahiye, taaki mujhe baar-baar ye sochna na
-              pade ki jo main feel kar rahi hoon, woh sirf meri taraf se hai."
+            <p class="letter-text flicker-line" style="color: var(--current-text-primary); margin-bottom: 12px;">
+              "Main isse koi big issue nahi banana chahti, but it gets confusing."
             </p>
-            <p class="letter-text chunk-para"
+            <p class="letter-text flicker-line"
               style="color: var(--current-text-primary); font-weight: 500; margin-bottom: 12px;">
-              "Making someone special on their special day... is something that I love."
+              "Bas aapki taraf se thodi si clarity aur reassurance chahiye hoti hai."
             </p>
           </div>
 
-          <!-- Virtual Hug Charger -->
-          <div class="hug-charger-container">
-            <div
-              style="font-family: var(--font-ui); font-size: 10.5px; color: var(--current-accent-start); font-weight: 700; letter-spacing: 0.12em;">
-              VIRTUAL HUG
+          <!-- Pinky Promise Stamp Interaction -->
+          <div class="promise-stamp-box">
+            <div class="stamp-badge" id="promise-btn">
+              <span>Click to make a Pinky Promise</span>
             </div>
-            <div
-              style="font-family: var(--font-body); font-size: 15.5px; color: var(--current-text-primary); font-style: italic; margin-top: 4px;"
-              id="hug-status-text">
-              Hold the heart for 3 seconds to send a warm hug
-            </div>
-            <button class="hug-hold-btn" id="hug-btn" aria-label="Hold to send hug">♥</button>
-            <div class="hug-progress-bar-bg">
-              <div class="hug-progress-bar-fill" id="hug-progress-fill"></div>
-            </div>
+            <div id="promise-result" class="promise-result-styled"></div>
           </div>
 
           <!-- In-Card Story Navigation -->
